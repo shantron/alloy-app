@@ -1,0 +1,76 @@
+.app-form {
+    width: 60%;
+    /* outline: solid 1px black; */
+    /* padding: 10px; */
+    border-radius: 10px;
+    margin: auto;
+    align-items: center;
+}
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  form {
+    display: block;
+    /* flex-direction: column; */
+    align-items: center;
+    width: 100%;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .address-fields {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .address-state,
+  .address-postal {
+   width: calc(50% - 5px); /* Adjust the width as needed */
+   margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(240, 26, 26);
+    margin-bottom: 1rem;
+  }
+
+  .submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem; /* Add some top margin for spacing */
+  }

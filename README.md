@@ -1,6 +1,6 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Getting Started
+This is an app to demo the Akkoy API.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and built with Node.js and Express.
 
 ## Available Scripts
 
@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Running Locally
+Create an env file called .env.local
+Fill out the env file with
+WORKFLOW_TOKEN=xxxxx
+WORKFLOW_SECRET=xxxxx
+PORT=5001
+API_URL=https://sandbox.alloy.co/v1/evaluations
